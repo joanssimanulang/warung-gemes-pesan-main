@@ -6,7 +6,7 @@ import {
   deleteAdmin,
   listAdmins,
   updateAdminPassword,
-} from "@/server/admins.functions.server";
+} from "@/lib/admins.functions.server";
 import { Plus, Trash2, KeyRound, X, Shield } from "lucide-react";
 import { toast } from "sonner";
 import { supabase } from "@/integrations/supabase/client";
