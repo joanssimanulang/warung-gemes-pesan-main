@@ -6,8 +6,3 @@
     }
   ]
 }
-
-{
-  "framework": "tanstack-start",
-  "buildCommand": "npm run build"
-}
