@@ -5,7 +5,9 @@ import path from "path";
 
 export default defineConfig({
   plugins: [
-    tanstackStart(),
+    tanstackStart({
+      target: "vercel",
+    }),
     react(),
   ],
   resolve: {
